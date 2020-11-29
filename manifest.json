@@ -1,0 +1,15 @@
+﻿{
+  "manifest_version": 2,
+ 
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "Change Facebook Theme",
+ 
+  "content_scripts": [
+	{
+	"matches": ["https://www.facebook.com/*"],
+    	"css": ["styles.css"]
+  	}
+   ]
+ 
+}
